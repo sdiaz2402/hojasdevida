@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="shortcut icon" type="image/png" href="img/favicon_cIe_icon.ico"/>
+<title>Hojas de vida David HumbroXYZ</title>
+</head>
+
+<body>
+	<div class="container">
+		<div class="row">
+    		<div class="col-xs-12">
+<p align="center"><img src="img/HUMBRO.png" /></p>
+        		<hr />
+       			<nav class="navbar navbar-default">
+       				<ul class="nav navbar-nav">
+        				<li class="active">
+            				<a href="index.html">
+                				Inicio
+                			</a>
+            			</li>
+            			<li >
+            				<a href="cristian.html">
+                				Cristian Correa
+                			</a>
+            			</li>
+                        <li >
+            				<a href="david.html">
+                				David Rodriguez
+                			</a>
+            			</li>
+                        <li >
+            				<a href="johan.html">
+                				Johan Diaz
+                			</a>
+            			</li>
+       				</ul>
+      			</nav>
+      		</div>
+      	</div>
+   	</div>
+    <div class="container">
+		<div class="row">
+    		<div class="col-xs-12" style="background-color:#FE9A2E">
+            	<br />
+    		   <div id="tooplate_slider">
+	    			<div class="slider-wrapper theme-default">
+	      				<div id="slider" class="nivoSlider"> 
+                        <img src="img/prev.png" width="71" height="72" onclick="atras()"/>
+                        <img id="banner" src="img/b1.jpg" alt="" width="940" height="263" />
+                        <img src="img/next.png" width="71" height="72" onclick="adelante()" /> 
+                    </div>
+                    <script>
+						function atras() {
+   						 var image = document.getElementById('banner');
+    					if (image.src.match("b1")) {
+        					image.src = "img/b.jpg";
+ 
+   						} else {
+       						 if (image.src.match("b2")) {
+        					image.src = "img/b1.jpg";
+							 }else{
+							 	if (image.src.match("b4")) {
+        					image.src = "img/b3.jpg";
+							 }else{
+								image.src="img/b2.jpg";
+							 } 
+							 }
+   						}
+						}
+						function adelante() {
+   						 var image = document.getElementById('banner');
+    					if (image.src.match("b1")) {
+        					image.src = "img/b2.jpg";
+ 
+   						} else {
+       						 if (image.src.match("b2")) {
+        					image.src = "img/b3.jpg";
+							 }else{
+							 	if (image.src.match("b3")) {
+        					image.src = "img/b4.jpg";
+							 }else{
+							 	image.src="img/b1.jpg";
+							 } 
+							 }
+							 }
+						}
+ 
+				</script>
+                 </div>
+	    </div>
+              <br />
+              <br />
+              <h3>
+              <P align="center">
+            <img src="img/pol.png" width="156" height="157" />              
+             <h3> <P align="center 	"><font face="Lucida Console, Monaco, monospace" color="#ffffff" >QUIÉNES SOMOS</font></P></h3> 	
+				<br />
+        
+    			<h4><P align="justify"><font face="Verdana, Geneva, sans-serif" >
+                Somos un grupo por empresarios que creen en Colombia, deseosos de retribuir a la sociedad y al país los rendimientos económicos 								                originados por sus actividades. El Politécnico Internacional es una Institución de Educación Superior constituida como una                fundación privada sin ánimo de lucro, la cual contribuye a hacer realidad los sueños de la juventud colombiana.
+    			<br />
+                <br />
+    			Es una Institución comprometida con el desarrollo laboral de sus egresados y es reconocida por las destacadas competencias                prácticas y por los altos estándares de calidad y servicio que desarrolla en sus estudiantes; los cuales tienen una gran acogida en                el sector productivo. </h4></font></p>
+                <br />
+                <br />
+          </div>
+            <div class="col-xs-12" id="footer" style="background-color:#FE9A2E">
+      			<footer>
+    				<p align="center" style="color: black;">
+    					Copyright © 2018 Humbroxyz | Design by: Johan Sebastian Diaz - David Felipe Rodriguez - Cristian Camilo Correa Cuesta
+    				</p>
+      			</footer>
+    		</div>
+		</div>
+   	</div>
+</body>
+</html>
